@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "197052410273",
+    "firebase_url": "https://licencjat-544fc.firebaseio.com",
+    "project_id": "licencjat-544fc",
+    "storage_bucket": "licencjat-544fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197052410273:android:3c434d8c37070a1b",
+        "android_client_info": {
+          "package_name": "com.example.poprostutomasz07.licencjat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197052410273-5lpajtnbe185gsdh2aob2s628ft8kdi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poprostutomasz07.licencjat",
+            "certificate_hash": "30f48ea929b04e82f68e942af4943730dc2d52db"
+          }
+        },
+        {
+          "client_id": "197052410273-i5tvfdk091pbtiaf9kqi26o4k20jtqg2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.poprostutomasz07.licencjat",
+            "certificate_hash": "166f0fb9690184b4557d37bfce5fe6c49e0746d1"
+          }
+        },
+        {
+          "client_id": "197052410273-abda13n3jko9clhe1k38pm76gjopk8c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc9wf4USB-q9ewH99f3VsuEx_Q2EhzC9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197052410273-abda13n3jko9clhe1k38pm76gjopk8c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

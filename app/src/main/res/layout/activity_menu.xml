@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.poprostutomasz07.licencjat.MenuActivity">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:weightSum="1"
+           android:id="@+id/linearLayout"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_marginTop="53dp">
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_local_hospital_white"/>
+           <TextView
+               android:id="@+id/textView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textColor="@color/text"
+               android:text="@string/title"
+               android:textSize="20dp"
+               android:layout_below="@+id/linearLayout"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+
+       </LinearLayout>
+
+           <ImageButton
+               android:id="@+id/imageButton"
+               android:layout_width="70dp"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:onClick="goToAnkieta"
+               android:layout_marginTop="91dp"
+               android:background="@drawable/ic_speaker_notes_white"
+               android:layout_below="@+id/linearLayout"
+               android:layout_alignLeft="@+id/imageButton4"
+               android:layout_alignStart="@+id/imageButton4" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ankieta"
+                android:textColor="@color/text"
+                android:layout_below="@+id/imageButton"
+                android:layout_alignLeft="@+id/imageButton"
+                android:id="@+id/textView2" />
+
+           <ImageButton
+               android:layout_width="70dp"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:onClick="goToStatystyki"
+               android:id="@+id/imageButton3"
+               android:background="@drawable/ic_assignment_white"
+               android:layout_alignTop="@+id/imageButton"
+               android:layout_alignLeft="@+id/imageButton2"
+               android:layout_alignStart="@+id/imageButton2" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/statystyki"
+                android:textColor="@color/text"
+                android:layout_below="@+id/imageButton3"
+                android:layout_alignLeft="@+id/imageButton3"
+                />
+           <ImageButton
+               android:layout_width="70dp"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:onClick="gotoAutor"
+               android:id="@+id/imageButton4"
+               android:layout_marginLeft="38dp"
+               android:layout_marginStart="38dp"
+               android:background="@drawable/ic_account_circle_white"
+               android:layout_marginTop="19dp"
+               android:layout_below="@+id/textView2"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text="@string/autor"
+                android:layout_below="@+id/imageButton4"
+                android:layout_alignLeft="@+id/imageButton4"
+             />
+           <ImageButton
+               android:layout_width="70dp"
+               android:layout_height="60dp"
+               android:layout_gravity="center"
+               android:onClick="goToAplikacja"
+               android:id="@+id/imageButton2"
+               android:background="@drawable/ic_info_white"
+               android:layout_marginRight="52dp"
+               android:layout_marginEnd="52dp"
+               android:layout_alignTop="@+id/imageButton4"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentEnd="true" />
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:text="@string/app"
+                 android:layout_below="@+id/imageButton2"
+                android:layout_alignLeft="@+id/imageButton2"
+             />
+
+
+
+
+</RelativeLayout>

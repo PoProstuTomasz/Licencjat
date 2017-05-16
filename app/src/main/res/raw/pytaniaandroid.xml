@@ -1,0 +1,180 @@
+<entries>
+
+    <StrukturPytania>
+        <nrPytania>0</nrPytania>
+        <pytanie>1. Jaka jest Twoja płeć?</pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Mężczyzna</odpA>
+            <odpB>Kobieta</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>1</nrPytania>
+        <pytanie>2. Jaki jest Twój wiek?</pytanie>
+        <odp>
+            <iloscodp>4</iloscodp>
+            <odpA>16 - 20 lat</odpA>
+            <odpB>20 - 30 lat</odpB>
+            <odpC>30 - 40 lat</odpC>
+            <odpD>40 - 50 lat lub więcej</odpD>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>2</nrPytania>
+        <pytanie>3. Czy stwierdzono u Ciebie Zespół cieśni nadgarstka? 4. Wykonaj test Tindela - opukuj nadgarstek. Czy podczas testu palce Twojej ręki drętwiały?  5. Wykonaj test Phalena - złącz dłonie grzbietami, tak by palce zwrócone były do klatki
+            piersiowej a nadgarstki maksymalnie zgięte. Czy  w czasie minuty odczuwałeś wyraźne mrowienie,
+            drętwienie palców lub ból? Czy na którekolwiek z powyższych pyatań odpowiedź brzmi tak?  </pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>3</nrPytania>
+        <pytanie>6. Czy zachowujesz prawidłową pozycję rąk podczas używania klawiatury?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Nie jestem pewien</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>4</nrPytania>
+        <pytanie>7. Czy meble (biurko,fotel,podnóżek) na Twoim stanowisku pracy posiadają odpowiednie wymiary ?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Nie jestem pewien</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>5</nrPytania>
+        <pytanie>8. Czy stwierdzono u Ciebie zespół kanału łokciowego? 9. Wykonaj test Luthy'ego - sprawdź możliwość objęcia dłonią butelki chwytając ją kciukiem oraz
+            palcem wskazującym. Czy jesteś w stanie to wykonać? 10.Wykonaj test Fromenta - sprawdź możliwość zgięcia płasko kciuka (tak, aby uchwycić np. kartkę
+            papieru). Czy jesteś w stanie to wykonać? Czy na którekolwiek z powyższych pyatań odpowiedź brzmi tak?
+        </pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>6</nrPytania>
+        <pytanie>11. Czy monitor oraz pozostałe urządzenia peryferyjne znajdujące się na Twoim stanowisku pracy są ustawione prawidłowo?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Nie jestem pewnien</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>7</nrPytania>
+        <pytanie>12.Czy stwierdzono u Ciebie  Zespół de Quervaina ? 13.Wykonaj  test von Finkelsteina - ułóż kciuk w dłoni a pozostałe palce zaciśnij w pięść. Czy
+            odczuwasz ból podczas wykonywania tego testu? Czy na którekolwiek z powyższych pyatań odpowiedź brzmi tak?
+        </pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>8</nrPytania>
+        <pytanie>14. Czy Twoja praca jest stresująca?</pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>9</nrPytania>
+        <pytanie>15. Czy stwierdzono u Ciebie zakleszczające zapalenie ścięgna ?</pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>10</nrPytania>
+        <pytanie>16. Czy posiadasz wadę wzroku</pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>11</nrPytania>
+        <pytanie>17. Czy oświetlenie Twojego stanowiska pracy jest odpowiednie?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Nie jestem pewien</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>12</nrPytania>
+        <pytanie>18. Czy stwierdzono u Ciebie zapalenie spojówek?</pytanie>
+        <odp>
+            <iloscodp>2</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>13</nrPytania>
+        <pytanie>19. Czy mikroklimat w pomieszczeniu w którym pracujesz jest odpowiedni?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Nie jestem pewien</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>14</nrPytania>
+        <pytanie>20. Czy zachowujesz prawidłową postawę podczas pracy?</pytanie>
+        <odp>
+            <iloscodp>3</iloscodp>
+            <odpA>Tak</odpA>
+            <odpB>Nie</odpB>
+            <odpC>Staram się</odpC>
+        </odp>
+    </StrukturPytania>
+
+    <StrukturPytania>
+        <nrPytania>15</nrPytania>
+        <pytanie>21. Ile wynosi Twój dzienny czas pracy?</pytanie>
+        <odp>
+            <iloscodp>4</iloscodp>
+            <odpA>2-4 godziny</odpA>
+            <odpB>4-6 godzin</odpB>
+            <odpC>6-8 godzin</odpC>
+            <odpD>8 godzin lub więcej</odpD>
+        </odp>
+    </StrukturPytania>
+
+</entries>
