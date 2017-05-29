@@ -277,10 +277,10 @@ public class Statystyki {
         SredniaDominantaMediana funkcja = new SredniaDominantaMediana();
         Prawdopodobienstwa funkcja2 = new Prawdopodobienstwa();
         String poczatek = "";
-        if(iloscodp>=1) poczatek+="\n A=" + iloscA + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpA();
-        if(iloscodp>=2) poczatek+="\n B=" + iloscB + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpB();
-        if(iloscodp>=3) poczatek+="\n C=" + iloscC + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpC();
-        if(iloscodp>=4) poczatek+="\n D=" + iloscD + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpD();
+        if(iloscodp>=1) poczatek+="\n Ilość odpowiedzi A: " + iloscA + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpA();
+        if(iloscodp>=2) poczatek+="\n Ilość odpowiedzi B: " + iloscB + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpB();
+        if(iloscodp>=3) poczatek+="\n Ilość odpowiedzi C: " + iloscC + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpC();
+        if(iloscodp>=4) poczatek+="\n Ilość odpowiedzi D: " + iloscD + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpD();
 
         poczatek+="\n";
 

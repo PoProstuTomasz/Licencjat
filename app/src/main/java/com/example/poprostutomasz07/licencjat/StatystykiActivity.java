@@ -78,23 +78,23 @@ public class StatystykiActivity extends AppCompatActivity {
         FrameLayout item = (FrameLayout) this.findViewById(R.id.framelayoutstat);
         item.removeAllViews();
 
-        TextView iloscAnkietowanych = (TextView) this.findViewById(R.id.testowy);
-        iloscAnkietowanych.setText("Ankietowanych: " + Dane.odpowiedzi.get(0).getIloscOdpowiedzi());
+        //TextView iloscAnkietowanych = (TextView) this.findViewById(R.id.testowy);
+        //iloscAnkietowanych.setText("Ankietowanych: " + Dane.odpowiedzi.get(0).getIloscOdpowiedzi());
 
-        TextView iloscAnkietowanych3 = (TextView) this.findViewById(R.id.testowy2);
-        iloscAnkietowanych3.setText("z bazy: " + a);
+        //TextView iloscAnkietowanych3 = (TextView) this.findViewById(R.id.testowy2);
+        //iloscAnkietowanych3.setText("z bazy: " + a);
 
 
-        TextView pytanie;
-        TextView pytanieHeader;
+        TextView textview;
+        TextView textviewH;
         for (int i = 0; i < Dane.pytania.size(); i++) {
-            pytanieHeader = new TextView(this);
-            pytanie = new TextView(this);
-            pytanieHeader.setText(Dane.odpowiedzi.get(i).getPytanie());
-            pytanieHeader.setBackgroundColor(Color.parseColor("#0060a3"));
-            pytanie.setText(Dane.odpowiedzi.get(i).toString());
-            radio.addView(pytanieHeader);
-            radio.addView(pytanie);
+            textviewH = new TextView(this);
+            textview = new TextView(this);
+            textviewH.setText(Dane.odpowiedzi.get(i).getPytanie());
+            textviewH.setBackgroundColor(Color.parseColor("#0060a3"));
+            textview.setText(Dane.odpowiedzi.get(i).toString());
+            radio.addView(textviewH);
+            radio.addView(textview);
         }
         item.addView(radio);
 
