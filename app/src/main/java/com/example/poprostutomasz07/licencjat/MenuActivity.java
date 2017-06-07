@@ -127,8 +127,8 @@ public class MenuActivity extends AppCompatActivity {
 
 
 
-/*
-    @Override
+
+  /*  @Override
     public void onStart(){
         super.onStart();
 
@@ -137,6 +137,7 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 DaneBaza dane = dataSnapshot.getValue(DaneBaza.class);
+                dane.getIloscA();
                 //for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
 
                     //Dane.odpowiedzi.add(Integer.parseInt(postSnapshot.getKey(), );
@@ -158,35 +159,35 @@ public class MenuActivity extends AppCompatActivity {
 
 
 
-   // @Override
-   // public void onStart(){
-       // super.onStart();
+   /* @Override
+    public void onStart(){
+        super.onStart();
 
-
-        //ValueEventListener daneListener = new ValueEventListener() {
+        ValueEventListener daneListener = new ValueEventListener() {
         //postReference.addValueEventListener(new ValueEventListener() {
-         //   @Override
-          //  public void onDataChange(DataSnapshot dataSnapshot) {
-              //  DaneBaza dane = dataSnapshot.getValue(DaneBaza.class);
-                   // Statystyki statystyki = new Statystyki(Integer.parseInt(dane.getId()));
-                   // statystyki.setIloscA(dane.getIloscA());
+            @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                DaneBaza dane = dataSnapshot.getValue(DaneBaza.class);
+                    //Statystyki statystyki = new Statystyki(1);
+                    //statystyki.setIloscA(dane.getIloscA());
                    // statystyki.setIloscB(dane.getIloscB());
-                   // statystyki.setIloscC(dane.getIloscC());
-                    //statystyki.setIloscD(dane.getIloscD());
-                  // statystyki.setIloscOdpowiedzi(dane.getIloscOdpowiedzi());
+                    //statystyki.setIloscC(dane.getIloscC());
+                   // statystyki.setIloscD(dane.getIloscD());
+                   // statystyki.setIloscOdpowiedzi(dane.getIloscOdpowiedzi());
+                   // Dane.odpowiedzi.add(1,statystyki);
 
-          //  }
+            }
 
-          //  @Override
-          //  public void onCancelled(DatabaseError databaseError) {
-                //Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
-                //Toast.makeText(MenuActivity.this, "Failed to load post.",
-                       // Toast.LENGTH_SHORT).show();
-         //  }
-       // });
-       // postReference.addValueEventListener(daneListener);
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
+                 Toast.makeText(MenuActivity.this, "Failed to load post.",
+                         Toast.LENGTH_SHORT).show();
+           }
+        };
+        postReference.addValueEventListener(daneListener);
        // postReference.addListenerForSingleValueEvent(daneListener);
-   // }
+        }*/
 
     public void gotoAutor(View view) {
         Intent intent = new Intent (this, AutorActivity.class);

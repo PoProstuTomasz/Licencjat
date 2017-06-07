@@ -1,12 +1,15 @@
 package Structure;
 
+import com.google.firebase.database.Exclude;
+import com.google.firebase.database.IgnoreExtraProperties;
+
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by Tomasz on 18.04.2017.
  */
-
+@IgnoreExtraProperties
 public class DaneBaza {
     //public String id;
 
@@ -114,10 +117,9 @@ public class DaneBaza {
         return iloscBzakleszcz;
     }
 
-
-    /*public Map<String, Object> toMap() {
+    @Exclude
+    public Map<String, Object> toMap() {
         HashMap<String, Object> result = new HashMap<>();
-        result.put("id", id);
         result.put("iloscA", iloscA);
         result.put("iloscB", iloscB);
         result.put("iloscC", iloscC);
@@ -136,5 +138,5 @@ public class DaneBaza {
 
         return result;
 
-    } */
+    }
 }

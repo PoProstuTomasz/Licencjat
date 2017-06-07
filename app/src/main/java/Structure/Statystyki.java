@@ -276,7 +276,7 @@ public class Statystyki {
     public String toString() {
         SredniaDominantaMediana funkcja = new SredniaDominantaMediana();
         Prawdopodobienstwa funkcja2 = new Prawdopodobienstwa();
-        String poczatek = "";
+        String poczatek = "" ;
         if(iloscodp>=1) poczatek+="\n Ilość odpowiedzi A: " + iloscA + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpA();
         if(iloscodp>=2) poczatek+="\n Ilość odpowiedzi B: " + iloscB + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpB();
         if(iloscodp>=3) poczatek+="\n Ilość odpowiedzi C: " + iloscC + "  - " + Dane.pytania.get(nrPytania).getOdp().getOdpC();
@@ -289,20 +289,20 @@ public class Statystyki {
         //poczatek+="\n";
 
         if(nrPytania == 2)
-            poczatek+= "\nPrawdopodobieństwo wystąpienia zespołu cieśni nadgarstka: " + funkcja2.PrawdopodobienstwoCiesn(nrPytania,iloscChorychCiesn,iloscOdpowiedzi) + " %";
+            poczatek+= "\n Wystąpienia zespołu cieśni nadgarstka: " + funkcja2.PrawdopodobienstwoCiesn(nrPytania,iloscChorychCiesn,iloscOdpowiedzi) + " %";
         if(nrPytania == 5)
-            poczatek+= "\nPrawdopodobieństwo wystąpienia zespołu kanału łokciowego: " + funkcja2.PrawdopodobienstwoKanal(nrPytania,iloscChorychKanal,iloscOdpowiedzi) + " %";
+            poczatek+= "\n Wystąpienia zespołu kanału łokciowego: " + funkcja2.PrawdopodobienstwoKanal(nrPytania,iloscChorychKanal,iloscOdpowiedzi) + " %";
         if(nrPytania == 7)
-            poczatek+= "\nPrawdopodobieństwo wystąpienia zespołu de Quervaina: " + funkcja2.PrawdopodobienstwoQuer(nrPytania,iloscChorychQuer,iloscOdpowiedzi) + " %";
+            poczatek+= "\n Wystąpienia zespołu de Quervaina: " + funkcja2.PrawdopodobienstwoQuer(nrPytania,iloscChorychQuer,iloscOdpowiedzi) + " %";
         if(nrPytania == 9)
-            poczatek+= "\nPrawdopodobieństwo wystąpienia zakleszczającego zapalenia ścięgna: " + funkcja2.PrawdopodobienstwoZakleszcz(nrPytania,iloscChorychZakleszcz,iloscOdpowiedzi) + " %";
+            poczatek+= "\n Wystąpienia zakleszczającego zapalenia ścięgna: " + funkcja2.PrawdopodobienstwoZakleszcz(nrPytania,iloscChorychZakleszcz,iloscOdpowiedzi) + " %";
         if(nrPytania == 12)
-            poczatek+= "\nPrawdopodobieństwo wystąpienia Zapalenia spojówek: " + funkcja2.PrawdopodobienstwoSpoj(nrPytania,iloscChorychSpoj,iloscOdpowiedzi) + " %";
+            poczatek+= "\n Wystąpienia Zapalenia spojówek: " + funkcja2.PrawdopodobienstwoSpoj(nrPytania,iloscChorychSpoj,iloscOdpowiedzi) + " %";
         poczatek+="\n";
 
         if(nrPytania == 1 || nrPytania == 15) {
                 poczatek+="\n";
-                poczatek+="Srednia arytmetyczna: " + funkcja.Srednia(nrPytania, iloscA, iloscB, iloscC, iloscD);
+                poczatek+="Średnia arytmetyczna: " + funkcja.Srednia(nrPytania, iloscA, iloscB, iloscC, iloscD);
                 poczatek+="\n";
 
                 poczatek+="Mediana: " + funkcja.Mediana(nrPytania, iloscA, iloscB, iloscC, iloscD) ;

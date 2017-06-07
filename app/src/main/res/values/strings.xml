@@ -6,7 +6,7 @@
     <string name="autor">O Autorze</string>
     <string name="exit">Wyjście</string>
     <string name="daneAutora">Autor aplikacji: Tomasz Flis student III roku Informatyki na Katolickim Uniwersytecie Lubelskim w roku akademickim 2016/2017</string>
-    <string name="Oaplikacji">Aplikacja zbierająca dane ankietowe, tak aby po ich zestawieniu mogła wskazać statystyczne ryzyko zapadnięcia na konkretną chorobę zawodową wraz z wyliczeniem podstawowych miar statystycznych</string>
+    <string name="Oaplikacji">Aplikacja zbierająca dane ankietowe, tak aby po ich zestawieniu mogła wskazać statystyczne ryzyko zapadnięcia na konkretną chorobę zawodową wraz z wyliczeniem podstawowych miar statystycznych. Aplikacja powstała w Android Studio, w ramach pracy licencjackiej.</string>
     <string name="Nastepne">Następne</string>
     <string name="app">O aplikacji</string>
     <string name="title_activity_aplikacja">AplikacjaActivity</string>

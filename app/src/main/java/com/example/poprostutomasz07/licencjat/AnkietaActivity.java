@@ -49,7 +49,7 @@ public class AnkietaActivity extends AppCompatActivity {
 
 
         String id = Integer.toString(value);
-        databaseChoroby = FirebaseDatabase.getInstance().getReference().child("choroby").child(id);
+        databaseChoroby = FirebaseDatabase.getInstance().getReference().child("choroby");
 
     }
 
@@ -260,16 +260,16 @@ public class AnkietaActivity extends AppCompatActivity {
          int iloscBspoj = statystyki.getIloscBspoj();
          int iloscBquer = statystyki.getIloscBquer();
          int iloscBzakleszcz = statystyki.getIloscBzakleszcz();
-         //String key = databaseChoroby.push().getKey();
+
         String id = Integer.toString(value);
 
-        DaneBaza dane = new DaneBaza( iloscOdpowiedzi,iloscA,iloscB,iloscC,iloscD,iloscChorychCiesn,iloscChorychKanal,iloscChorychSpoj,iloscChorychQuer,iloscChorychZakleszcz,iloscBciesn,iloscBkanal,iloscBspoj,iloscBquer,iloscBzakleszcz);
-        //Map<String, Object> postValues = dane.toMap();
+        DaneBaza dane = new DaneBaza( iloscOdpowiedzi,iloscA,iloscB,iloscC,iloscD,iloscChorychCiesn,iloscChorychKanal, iloscChorychSpoj, iloscChorychQuer, iloscChorychZakleszcz, iloscBciesn,iloscBkanal,iloscBspoj,iloscBquer,iloscBzakleszcz);
+        Map<String, Object> postValues = dane.toMap();
 
-        //Map<String, Object> chorobyUpdates = new HashMap<>();
-        //chorobyUpdates.put( key, postValues);
+        Map<String, Object> chorobyUpdates = new HashMap<>();
+        chorobyUpdates.put( id ,postValues);
 
-            databaseChoroby.setValue(dane);
+            databaseChoroby.updateChildren(chorobyUpdates);
     }
 
     public void nastepne(View view){
